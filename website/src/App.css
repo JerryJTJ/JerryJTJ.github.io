@@ -1,0 +1,30 @@
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  color: white
+}
+
+body {
+  /* background-image: url("./media/ios7nebula.png"); */
+  background-color: black;
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+}
+
+/* Style the scrollbar */
+.os-scrollbar {
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 10px;
+}
+
+/* Style the scrollbar handle */
+.os-scrollbar-thumb {
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+}
+
+/* Make the scrollbar go on top of the body */
+.os-viewport {
+  z-index: 1;
+}

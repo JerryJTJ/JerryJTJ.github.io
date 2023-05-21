@@ -1,0 +1,128 @@
+.titlebar {
+    justify-content: center;
+    display: block;
+    font-family: "Georgia", 'Times New Roman', Times, serif;
+    background-image: url(../../public/media/titlebar/maunakea.png);
+    background-position: 48% 48%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-bottom: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    font-family: "Noto Sans";
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.navList {
+    justify-content: center;
+    text-align: center;
+
+}
+
+.titleName {
+    text-align: center;
+    display: block;
+    position: relative;
+    font-family: "Noto Sans";
+}
+
+.titleName:hover {
+    text-decoration: none;
+}
+
+/*Animations start here */
+
+.titlebar {
+    background: linear-gradient(to right,
+            rgb(140, 175, 233),
+            rgb(169, 157, 193),
+            rgb(255, 197, 161),
+            rgb(241, 151, 143));
+    background-size: 200% 200%;
+    animation: rainbow 3s ease-in-out infinite;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: whitesmoke;
+    text-align: center;
+    transition: color .2s ease-in-out;
+    text-transform: uppercase;
+}
+
+/* Name Bar */
+.titleNameText {}
+
+.titleNameText:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+@keyframes rainbow {
+    0% {
+        background-position: left
+    }
+
+    50% {
+        background-position: right
+    }
+
+    100% {
+        background-position: left
+    }
+}
+
+/*Navigation Links*/
+
+.navLinks {
+    font-family: "Noto Sans";
+}
+
+.navLinks:hover {
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0);
+}
+
+
+/* Constants */
+:root {
+    --backgroundColour: #000000;
+}
+
+/* Media */
+@media screen and (max-width: 768px) {
+    .titleNameText {
+        font-size: 4rem;
+    }
+
+    nav {
+        padding: 5px;
+    }
+
+    nav a {
+        margin: 0 5px;
+        font-size: 14px;
+    }
+
+    .navList {
+        margin: 0;
+    }
+
+    .titlebar {
+        margin-bottom: 1rem;
+    }
+}

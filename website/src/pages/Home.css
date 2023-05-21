@@ -1,0 +1,40 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-right: 60px;
+    align-items: center;
+}
+
+.bio {
+    flex: 1;
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.2);
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    margin-top: 0;
+    color: whitesmoke;
+    font-family: "Poppins", serif;
+    font-size: 3rem;
+    font-weight: lighter;
+}
+
+p {
+    font-size: 18px;
+    line-height: 1.5;
+    color: whitesmoke;
+    font-family: "Poppins", "Noto Sans", serif;
+    font-weight: lighter;
+}
