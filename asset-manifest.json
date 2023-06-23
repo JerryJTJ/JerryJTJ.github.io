@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/static/css/main.96b9444f.css",
+    "main.js": "/static/js/main.3677f80d.js",
+    "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
+    "static/media/profilepic.jpg": "/static/media/profilepic.ed650242214cedf2d726.jpg",
+    "static/media/manoaseal_transparent.png": "/static/media/manoaseal_transparent.509f32615a2964ffc9ee.png",
+    "static/media/University_of_Waterloo_seal.svg.png": "/static/media/University_of_Waterloo_seal.svg.4f899ab4e8198a3ba480.png",
+    "static/media/borealiswind.jpeg": "/static/media/borealiswind.fe05d771784d01045c20.jpeg",
+    "index.html": "/index.html",
+    "main.96b9444f.css.map": "/static/css/main.96b9444f.css.map",
+    "main.3677f80d.js.map": "/static/js/main.3677f80d.js.map",
+    "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.96b9444f.css",
+    "static/js/main.3677f80d.js"
+  ]
+}
