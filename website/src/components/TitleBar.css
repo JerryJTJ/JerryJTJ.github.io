@@ -1,28 +1,25 @@
 .titlebar {
     justify-content: center;
     display: block;
-    font-family: "Georgia", 'Times New Roman', Times, serif;
-    background-image: url(../../public/media/titlebar/maunakea.png);
     background-position: 48% 48%;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 30px;
 }
 
 nav {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #333;
-    color: #fff;
     padding: 10px;
-    font-family: "Noto Sans";
 }
 
 nav a {
     color: #fff;
     text-decoration: none;
     margin: 0 10px;
+    font-size: 1.25em;
 }
 
 nav a:hover {
@@ -39,7 +36,6 @@ nav a:hover {
     text-align: center;
     display: block;
     position: relative;
-    font-family: "Noto Sans";
 }
 
 .titleName:hover {
@@ -47,30 +43,6 @@ nav a:hover {
 }
 
 /*Animations start here */
-
-.titlebar {
-    background: linear-gradient(to right,
-            rgb(140, 175, 233),
-            rgb(169, 157, 193),
-            rgb(255, 197, 161),
-            rgb(241, 151, 143));
-    background-size: 200% 200%;
-    animation: rainbow 3s ease-in-out infinite;
-    background-clip: text;
-    -webkit-background-clip: text;
-    color: whitesmoke;
-    text-align: center;
-    transition: color .2s ease-in-out;
-    text-transform: uppercase;
-}
-
-/* Name Bar */
-.titleNameText {}
-
-.titleNameText:hover {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0);
-}
 
 @keyframes rainbow {
     0% {
@@ -86,15 +58,36 @@ nav a:hover {
     }
 }
 
-/*Navigation Links*/
+/* Name Bar */
+.titleNameText {
+    font-family: "Roboto";
+    font-weight: 1000;
+    font-size: 3em;
+}
 
+.titleNameText:hover {
+    background: linear-gradient(to right, rgb(140, 175, 233), rgb(169, 157, 193), rgb(255, 197, 161), rgb(241, 151, 143));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s ease-in-out infinite;
+    transition: background-position 0.2s ease-in-out;
+}
+
+/* Navigation Links */
 .navLinks {
-    font-family: "Noto Sans";
+    font-family: "Roboto";
+    font-weight: 500;
+    font-size: 1.5em;
 }
 
 .navLinks:hover {
-    text-decoration: none;
-    color: rgba(0, 0, 0, 0);
+    background: linear-gradient(to right, rgb(140, 175, 233), rgb(169, 157, 193), rgb(255, 197, 161), rgb(241, 151, 143));
+    background-size: 200% 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: rainbow 3s ease-in-out infinite;
+    transition: background-position 0.2s ease-in-out;
 }
 
 

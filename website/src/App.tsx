@@ -6,13 +6,11 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import TitleBar from './components/TitleBar';
 import Experience from './pages/Experience';
-import './App.css';
+import './App.sass';
 import 'overlayscrollbars/overlayscrollbars.css';
 import { OverlayScrollbars, ScrollbarsAutoHideBehavior } from 'overlayscrollbars';
-import $ from 'jquery';
 
 function App() {
-
   const options = {
     scrollbars: {
       autoHide: 'm' as ScrollbarsAutoHideBehavior,
@@ -33,6 +31,9 @@ function App() {
     <div className="App">
       <BrowserRouter>
         <TitleBar activeTab={activeTab} onTabClick={handleTabClick} />
+        <div id="stars"></div>
+        <div id="stars2"></div>
+        <div id="stars3"></div>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
