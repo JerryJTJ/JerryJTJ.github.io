@@ -1,28 +1,38 @@
+// Glow Effect for Links
+a
+  color: whitesmoke
+  text-decoration: none
+  transition: text-shadow 0.3s
+
+a:hover
+  text-shadow: 0 0 10px whitesmoke
+
+// Star Effect
 // n is number of stars required
-@function multiple-box-shadow ($n) 
+@function multiple-box-shadow ($n)
   $value: '#{random(2000)}px #{random(2000)}px #FFF'
   @for $i from 2 through $n
     $value: '#{$value} , #{random(2000)}px #{random(2000)}px #FFF'
 
   @return unquote($value)
 
-$shadows-small:  multiple-box-shadow(700)
+$shadows-small: multiple-box-shadow(700)
 $shadows-medium: multiple-box-shadow(200)
-$shadows-big:    multiple-box-shadow(100)
+$shadows-big: multiple-box-shadow(100)
 
 html
   background-size: cover
   background: #181414
-    
+
 #stars
   width: 1px
   height: 1px
   background: transparent
   box-shadow: $shadows-small
-  animation			: animStar 50s linear infinite
+  animation: animStar 50s linear infinite
   z-index: -1
   position: fixed
-    
+
   &:after
     content: " "
     position: absolute
@@ -31,16 +41,16 @@ html
     height: 1px
     background: transparent
     box-shadow: $shadows-small
-    
+
 #stars2
   width: 2px
   height: 2px
   background: transparent
   box-shadow: $shadows-medium
-  animation			: animStar 100s linear infinite
+  animation: animStar 100s linear infinite
   z-index: -1
   position: fixed
-    
+
   &:after
     content: " "
     position: absolute
@@ -49,16 +59,16 @@ html
     height: 2px
     background: transparent
     box-shadow: $shadows-medium
-    
+
 #stars3
   width: 3px
   height: 3px
   background: transparent
   box-shadow: $shadows-big
-  animation			: animStar 150s linear infinite
+  animation: animStar 150s linear infinite
   z-index: -1
   position: fixed
-    
+
   &:after
     content: " "
     position: absolute
@@ -68,10 +78,8 @@ html
     background: transparent
     box-shadow: $shadows-big
 
-    
 @keyframes animStar
-  from	
+  from
     transform: translateY(0px)
-  to		
+  to
     transform: translateY(-2000px)
-    

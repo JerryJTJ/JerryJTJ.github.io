@@ -1,4 +1,4 @@
-import { Url } from "url";
+import historicalInvestigation from "../media/documents/historical-investigation.pdf";
 
 export enum ProjectType {
 	SOFTWARE,
@@ -48,7 +48,7 @@ let listOfProjects: projectDetails[] = [
 		name: "Was the Austro-Hungarian Compromise of 1867 (Ausgleich) necessary to preserve the Austrian Empire?",
 		description:
 			"My historical invesgiation for my History IB HL course in high school.",
-		link: "../media/documents/historical-investigation.pdf",
+		link: historicalInvestigation,
 		type: ProjectType.WRITING,
 	},
 ];

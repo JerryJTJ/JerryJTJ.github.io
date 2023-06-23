@@ -16,14 +16,10 @@ nav {
 }
 
 nav a {
-    color: #fff;
+    color: whitesmoke;
     text-decoration: none;
     margin: 0 10px;
     font-size: 1.25em;
-}
-
-nav a:hover {
-    text-decoration: underline;
 }
 
 .navList {
@@ -33,9 +29,12 @@ nav a:hover {
 }
 
 .titleName {
-    text-align: center;
-    display: block;
-    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: max-content;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .titleName:hover {
@@ -60,7 +59,7 @@ nav a:hover {
 
 /* Name Bar */
 .titleNameText {
-    font-family: "Roboto";
+    font-family: "Roboto", Helvetica, sans-serif;
     font-weight: 1000;
     font-size: 3em;
 }
@@ -76,7 +75,7 @@ nav a:hover {
 
 /* Navigation Links */
 .navLinks {
-    font-family: "Roboto";
+    font-family: "Roboto", Helvetica, sans-serif;
     font-weight: 500;
     font-size: 1.5em;
 }

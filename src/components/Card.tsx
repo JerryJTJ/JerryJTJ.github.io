@@ -1,6 +1,7 @@
 import React from "react";
 import "./Card.css";
 import { Url } from "url";
+import hipdf from "../media/documents/historical-investigation.pdf";
 
 type cardType = "job" | "project";
 
