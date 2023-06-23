@@ -5,3 +5,10 @@ This is my personal website, where I showcase my portfolio, share my thoughts, a
 Technologies Used: TypeScript, React, CSS, Sass, HTML
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+To-do:
+- Add/finish about page
+- Add more experience & project details
+- Add resume
+- Make mobile friendly
+- Refactor/tidy up CSS
