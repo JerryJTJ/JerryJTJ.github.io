@@ -50,11 +50,9 @@ const Card = (props: cardProps) => {
 							<a href={props.link}>🔗</a>
 						</p>
 					) : null}
-					{props.date ? (
-						<p className={"sideText"}>{props.date}</p>
-					) : null}
+					{props.date ? <p className={"date"}>{props.date}</p> : null}
 					{props.location ? (
-						<p className={"sideText"}>{props.location}</p>
+						<p className={"location"}>{props.location}</p>
 					) : null}
 				</div>
 			</div>

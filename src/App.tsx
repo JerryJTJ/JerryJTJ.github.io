@@ -38,13 +38,15 @@ function App() {
 				<div id="stars"></div>
 				<div id="stars2"></div>
 				<div id="stars3"></div>
-				<Routes>
-					<Route path="/" element={<Home />} />
-					<Route path="/about" element={<About />} />
-					<Route path="/projects" element={<Projects />} />
-					<Route path="/contact" element={<Contact />} />
-					<Route path="/experience" element={<Experience />} />
-				</Routes>
+				<div className="app-pages">
+					<Routes>
+						<Route path="/" element={<Home />} />
+						<Route path="/about" element={<About />} />
+						<Route path="/projects" element={<Projects />} />
+						<Route path="/contact" element={<Contact />} />
+						<Route path="/experience" element={<Experience />} />
+					</Routes>
+				</div>
 			</BrowserRouter>
 			<FooterBar />
 		</div>

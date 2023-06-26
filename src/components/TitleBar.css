@@ -1,120 +1,136 @@
 .titlebar {
-    justify-content: center;
-    display: block;
-    background-position: 48% 48%;
-    background-repeat: no-repeat;
-    background-size: cover;
-    margin-bottom: 30px;
-    margin-top: 30px;
+	justify-content: center;
+	display: block;
+	background-position: 48% 48%;
+	background-repeat: no-repeat;
+	background-size: cover;
+	margin-bottom: 1.5rem;
+	margin-top: 1.5em;
 }
 
 nav {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 10px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 10px;
 }
 
 nav a {
-    color: whitesmoke;
-    text-decoration: none;
-    margin: 0 10px;
-    font-size: 1.25em;
+	color: whitesmoke;
+	text-decoration: none;
+	margin: 0 10px;
+	font-size: 1.25em;
 }
 
 .navList {
-    justify-content: center;
-    text-align: center;
+	justify-content: center;
+	text-align: center;
+}
 
+.titlebar ul {
+	margin: 0; /* To remove default bottom margin */
+	padding: 0; /* To remove default left padding */
 }
 
 .titleName {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: max-content;
-    margin-left: auto;
-    margin-right: auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: max-content;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 .titleName:hover {
-    text-decoration: none;
+	text-decoration: none;
 }
 
-/*Animations start here */
+/* Animations start here */
 
 @keyframes rainbow {
-    0% {
-        background-position: left
-    }
+	0% {
+		background-position: left;
+	}
 
-    50% {
-        background-position: right
-    }
+	50% {
+		background-position: right;
+	}
 
-    100% {
-        background-position: left
-    }
+	100% {
+		background-position: left;
+	}
 }
 
 /* Name Bar */
 .titleNameText {
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-weight: 1000;
-    font-size: 3em;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-weight: 1000;
+	font-size: 3em;
 }
 
 .titleNameText:hover {
-    background: linear-gradient(to right, rgb(140, 175, 233), rgb(169, 157, 193), rgb(255, 197, 161), rgb(241, 151, 143));
-    background-size: 200% 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 3s ease-in-out infinite;
-    transition: background-position 0.2s ease-in-out;
+	background: linear-gradient(
+		to right,
+		rgb(140, 175, 233),
+		rgb(169, 157, 193),
+		rgb(255, 197, 161),
+		rgb(241, 151, 143)
+	);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: rainbow 3s ease-in-out infinite;
+	transition: background-position 0.2s ease-in-out;
 }
 
 /* Navigation Links */
 .navLinks {
-    font-family: "Roboto", Helvetica, sans-serif;
-    font-weight: 500;
-    font-size: 1.5em;
+	font-family: "Roboto", Helvetica, sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
 }
 
 .navLinks:hover {
-    background: linear-gradient(to right, rgb(140, 175, 233), rgb(169, 157, 193), rgb(255, 197, 161), rgb(241, 151, 143));
-    background-size: 200% 200%;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    animation: rainbow 3s ease-in-out infinite;
-    transition: background-position 0.2s ease-in-out;
+	background: linear-gradient(
+		to right,
+		rgb(140, 175, 233),
+		rgb(169, 157, 193),
+		rgb(255, 197, 161),
+		rgb(241, 151, 143)
+	);
+	background-size: 200% 200%;
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	animation: rainbow 3s ease-in-out infinite;
+	transition: background-position 0.2s ease-in-out;
 }
-
 
 /* Constants */
 :root {
-    --backgroundColour: #000000;
+	--backgroundColour: #000000;
 }
 
 /* Media */
 @media screen and (max-width: 768px) {
-    .titleNameText {
-        font-size: 4rem;
-    }
+	.titleNameText {
+		font-size: 1.75rem;
+	}
 
-    nav {
-        padding: 5px;
-    }
+	nav {
+		padding: 5px;
+	}
 
-    nav a {
-        margin: 0 5px;
-        font-size: 14px;
-    }
+	nav a {
+		margin: 0.5rem;
+		font-size: 1rem;
+	}
 
-    .navList {
-        margin: 0;
-    }
+	.navList {
+		margin: auto;
+		font-size: 0.75rem;
+	}
 
-    .titlebar {
-        margin-bottom: 1rem;
-    }
+	.titlebar {
+		margin-bottom: 1rem;
+	}
 }

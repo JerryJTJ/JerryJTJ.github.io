@@ -2,23 +2,23 @@
 import React from "react";
 import profilePic from "../media/profilepic.jpg";
 import "./Home.css";
-import FooterBar from "../components/FooterBar";
 
 function Home() {
 	return (
-		<div className="parent-container">
-			<div className="container">
+		//"home-superContainer" is for footer
+		<div className="home-superContainer">
+			<div className="home-container">
 				<img
-					className="profile-pic"
+					className="home-profilePic"
 					src={profilePic}
 					alt="Profile Picture"
 				/>
-				<div className="bio">
-					<h1>👋 Hey!</h1>
-					<p>
-						Welcome to my website! I'm a recent University of
-						Waterloo grad with a B.A.Sc. degree in Mechatronics
-						Engineering/Computing Option.
+				<div className="home-bio">
+					<h1 className="home-greeting">👋 Hey!</h1>
+					<p className="home-bioText">
+						Welcome to my website! I'm a new UWaterloo grad with a
+						degree in Mechatronics Engineering (w/ Computing
+						Option).
 						<br></br>
 						<br></br>
 						I'll post my projects, experiences, and other random

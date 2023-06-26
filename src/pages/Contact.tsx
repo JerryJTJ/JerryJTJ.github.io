@@ -2,7 +2,7 @@ import "./Contact.css";
 
 function Contact() {
 	return (
-		<div className="parent-container">
+		<div className="contact-container">
 			<div className="contacts">
 				<p>
 					📧&nbsp;
