@@ -1,4 +1,5 @@
 import historicalInvestigation from "../media/documents/historical-investigation.pdf";
+import ece493final from "../media/documents/ece493-final.pdf";
 
 export enum ProjectType {
 	SOFTWARE,
@@ -40,8 +41,15 @@ let listOfProjects: projectDetails[] = [
 	{
 		name: "Face masks against COVID-19: Standards, efficacy, testing and decontamination methods",
 		description: `A published systemic review paper investigating the efficacy and mechanisms of facial masking, 
-        as well as various testing decomtamination methods. I wrote this as a lead author as part of a co-op at the University of Hawai'i at Manoa working under Dr. Yi Zuo.`,
+        as well as various testing decomtamination methods. I wrote this as the lead author as part of a co-op at the University of Hawai'i at Manoa working under Dr. Yi Zuo.`,
 		link: "https://www.sciencedirect.com/science/article/pii/S0001868621000762",
+		type: ProjectType.WRITING,
+	},
+	{
+		name: "Optimizing Physical Design for Socially Desirable Robots in the Classroom: A Study with Children",
+		description: `A experiment proposal written as the final paper for ECE 493: Social Robotics. I discuss 
+		the increased use of social robots in early childhood education, in particular the importance of designing their appearance to effectively engage and comfort children.`,
+		link: ece493final,
 		type: ProjectType.WRITING,
 	},
 	{

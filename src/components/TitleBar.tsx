@@ -8,7 +8,7 @@ interface TitleBarProps {
 }
 
 //Add "about" to navigationList when finished page
-const navigationList = ["experience", "projects", "contact"];
+const navigationList = ["projects", "experience", "contact"];
 
 function TitleBar({ activeTab, onTabClick }: TitleBarProps) {
 	return (

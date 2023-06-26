@@ -41,10 +41,6 @@ nav a {
 	margin-right: auto;
 }
 
-.titleName:hover {
-	text-decoration: none;
-}
-
 /* Animations start here */
 
 @keyframes rainbow {

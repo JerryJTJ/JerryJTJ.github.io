@@ -25,7 +25,7 @@ let listOfJobs: jobDetails[] = [
 		role: "Full-Stack Engineer Co-op",
 		image: require("../media/logos/q4inc.png"),
 		description: "",
-		technologies: "TypeScript, React, NodeJS, SQL, MongoDB",
+		technologies: "TypeScript, React, NodeJS, SQL, MongoDB, Cypress, Jest",
 	},
 	{
 		company: "University of Hawai'i",
@@ -34,7 +34,7 @@ let listOfJobs: jobDetails[] = [
 		role: "Software Research Engineer Co-op",
 		image: require("../media/logos/manoaseal_transparent.png"),
 		description: "",
-		technologies: "C++, Fortan, MFC",
+		technologies: "C++, Fortan, MATLAB, Python, MFC",
 	},
 	{
 		company: "Ford Motor Company",
@@ -43,7 +43,7 @@ let listOfJobs: jobDetails[] = [
 		role: "Embedded Software Engineer Co-op",
 		image: require("../media/logos/ford.png"),
 		description: "",
-		technologies: "C++, QNX RTOS",
+		technologies: "C++, QNX RTOS, CTest",
 	},
 	{
 		company: "University of Hawai'i",

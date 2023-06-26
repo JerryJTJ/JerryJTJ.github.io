@@ -7,7 +7,7 @@ import "./Projects.css";
 function Projects() {
 	return (
 		<div className="parent">
-			<p className="grouping">SOFTWARE 💻</p>
+			<p className="grouping">💻 SOFTWARE </p>
 
 			<div className="cards">
 				{listOfProjects.map((project) =>
@@ -24,7 +24,7 @@ function Projects() {
 				)}
 			</div>
 
-			<p className="grouping">WRITING 📝</p>
+			<p className="grouping">📝 WRITING</p>
 
 			<div className="cards">
 				{listOfProjects.map((project) =>

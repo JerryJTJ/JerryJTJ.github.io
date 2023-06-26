@@ -11,19 +11,27 @@ import "overlayscrollbars/overlayscrollbars.css";
 import {
 	OverlayScrollbars,
 	ScrollbarsAutoHideBehavior,
+	ScrollbarsHidingPlugin,
+	SizeObserverPlugin,
+	ClickScrollPlugin,
 } from "overlayscrollbars";
 import FooterBar from "./components/FooterBar";
 
 function App() {
-	const options = {
-		scrollbars: {
-			autoHide: "m" as ScrollbarsAutoHideBehavior,
-			autoHideDelay: 500,
+	const osInstance = OverlayScrollbars(document.body, {
+		update: {
+			debounce: [0, 50],
 		},
-		paddingAbsolute: true,
-	};
-
-	OverlayScrollbars(document.body, options);
+		scrollbars: {
+			theme: "os-theme-dark",
+			visibility: "auto",
+			autoHide: "never",
+			autoHideDelay: 13000,
+			dragScroll: true,
+			clickScroll: false,
+			pointers: ["mouse", "touch", "pen"],
+		},
+	});
 
 	const [activeTab, setActiveTab] = useState("home");
 
