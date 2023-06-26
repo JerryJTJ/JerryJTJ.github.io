@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.1d8a99e0.css",
-    "main.js": "/static/js/main.e9773396.js",
+    "main.css": "/static/css/main.233ce248.css",
+    "main.js": "/static/js/main.93746c65.js",
     "static/js/787.71e672d5.chunk.js": "/static/js/787.71e672d5.chunk.js",
     "static/media/ece493-final.pdf": "/static/media/ece493-final.99137a667f00ef35a49a.pdf",
     "static/media/historical-investigation.pdf": "/static/media/historical-investigation.6f840aabd9551d916765.pdf",
@@ -10,12 +10,12 @@
     "static/media/University_of_Waterloo_seal.svg.png": "/static/media/University_of_Waterloo_seal.svg.4f899ab4e8198a3ba480.png",
     "static/media/borealiswind.jpeg": "/static/media/borealiswind.fe05d771784d01045c20.jpeg",
     "index.html": "/index.html",
-    "main.1d8a99e0.css.map": "/static/css/main.1d8a99e0.css.map",
-    "main.e9773396.js.map": "/static/js/main.e9773396.js.map",
+    "main.233ce248.css.map": "/static/css/main.233ce248.css.map",
+    "main.93746c65.js.map": "/static/js/main.93746c65.js.map",
     "787.71e672d5.chunk.js.map": "/static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d8a99e0.css",
-    "static/js/main.e9773396.js"
+    "static/css/main.233ce248.css",
+    "static/js/main.93746c65.js"
   ]
 }
