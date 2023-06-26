@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import Card from "../components/Card";
+import Card, { CardType } from "../components/Card";
 import listOfJobs from "./Experience.list";
 
 function Experience() {
@@ -10,7 +10,7 @@ function Experience() {
 		>
 			{listOfJobs.map((job) => (
 				<Card
-					type="job"
+					type={CardType.JOB}
 					title={job.company}
 					date={job.date}
 					location={job.location}

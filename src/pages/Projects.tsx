@@ -1,6 +1,6 @@
 import React from "react";
 import { View } from "react-native";
-import Card from "../components/Card";
+import Card, { CardType } from "../components/Card";
 import listOfProjects, { ProjectType } from "./Projects.list";
 import "./Projects.css";
 
@@ -13,7 +13,7 @@ function Projects() {
 				{listOfProjects.map((project) =>
 					project.type === ProjectType.SOFTWARE ? (
 						<Card
-							type="project"
+							type={CardType.PROJECT}
 							title={project.name}
 							role={project.role}
 							description={project.description}
@@ -30,7 +30,7 @@ function Projects() {
 				{listOfProjects.map((project) =>
 					project.type === ProjectType.WRITING ? (
 						<Card
-							type="project"
+							type={CardType.PROJECT}
 							title={project.name}
 							role={project.role}
 							description={project.description}

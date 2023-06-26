@@ -15,23 +15,41 @@ import {
 	SizeObserverPlugin,
 	ClickScrollPlugin,
 } from "overlayscrollbars";
+import {
+	BrowserView,
+	MobileView,
+	isBrowser,
+	isMobile,
+} from "react-device-detect";
 import FooterBar from "./components/FooterBar";
 
 function App() {
-	const osInstance = OverlayScrollbars(document.body, {
-		update: {
-			debounce: [0, 50],
-		},
-		scrollbars: {
-			theme: "os-theme-dark",
-			visibility: "auto",
-			autoHide: "never",
-			autoHideDelay: 13000,
-			dragScroll: true,
-			clickScroll: false,
-			pointers: ["mouse", "touch", "pen"],
-		},
-	});
+	// Only render scrollbar if not mobile
+	if (!isMobile) {
+		const osInstance = OverlayScrollbars(document.body, {
+			paddingAbsolute: false,
+			showNativeOverlaidScrollbars: false,
+			update: {
+				elementEvents: [["img", "load"]],
+				debounce: [0, 33],
+				attributes: null,
+				ignoreMutation: null,
+			},
+			overflow: {
+				x: "scroll",
+				y: "scroll",
+			},
+			scrollbars: {
+				theme: "os-theme-dark",
+				visibility: "hidden",
+				autoHide: "move",
+				autoHideDelay: 1300,
+				dragScroll: true,
+				clickScroll: false,
+				pointers: ["mouse", "touch", "pen"],
+			},
+		});
+	}
 
 	const [activeTab, setActiveTab] = useState("home");
 

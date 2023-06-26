@@ -1,12 +1,12 @@
-import React from "react";
 import "./Card.css";
-import { Url } from "url";
-import hipdf from "../media/documents/historical-investigation.pdf";
 
-type cardType = "job" | "project";
+export enum CardType {
+	JOB,
+	PROJECT,
+}
 
 interface cardProps {
-	type: cardType;
+	type: CardType;
 	title?: string;
 	role?: string;
 	location?: string;
@@ -21,7 +21,7 @@ const Card = (props: cardProps) => {
 	return (
 		<div className={"card"}>
 			<div className={"cardRow"}>
-				{props.type === "job" ? (
+				{props.type === CardType.JOB ? (
 					<div className={""}>
 						<img
 							className={"cardImage"}
