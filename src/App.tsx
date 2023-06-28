@@ -43,7 +43,7 @@ function App() {
 			},
 			scrollbars: {
 				theme: "os-theme-dark",
-				visibility: "hidden",
+				visibility: "auto",
 				autoHide: "move",
 				autoHideDelay: 1300,
 				dragScroll: true,
