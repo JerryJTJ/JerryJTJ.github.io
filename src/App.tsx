@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
 import About from "./pages/About";
 import Projects from "./pages/Projects";
@@ -59,7 +59,7 @@ function App() {
 
 	return (
 		<div className="App">
-			<BrowserRouter>
+			<HashRouter>
 				<TitleBar activeTab={activeTab} onTabClick={handleTabClick} />
 				<div id="stars"></div>
 				<div id="stars2"></div>
@@ -73,7 +73,7 @@ function App() {
 						<Route path="/experience" element={<Experience />} />
 					</Routes>
 				</div>
-			</BrowserRouter>
+			</HashRouter>
 			<FooterBar />
 		</div>
 	);
