@@ -109,9 +109,13 @@ a.active {
 	}
 
 	.role,
-	.technologies,
 	.description {
 		font-size: 0.67rem;
+	}
+
+	.technologies {
+		font-size: 0.67rem;
+		font-family: "Consolas", "Andale Mono", "Courier New", Monospace;
 	}
 
 	.date,

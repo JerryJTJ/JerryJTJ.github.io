@@ -7,10 +7,10 @@
 
 .contacts {
 	background-color: rgba(25, 25, 25, 0.95);
-	padding: 15px;
-	padding-left: 50px;
-	padding-right: 50px;
-	margin-bottom: 15px;
+	padding: 20px;
+	border-radius: 15px;
+	padding-left: 65px;
+	padding-right: 65px;
 	width: max-content;
 	max-width: 60vw;
 	margin-left: auto;
@@ -20,8 +20,8 @@
 }
 
 .contacts a {
-	font-family: "Consolas", "Courier New";
-	font-size: 20px;
+	font-family: "Consolas", "Andale Mono", "Courier New", Monospace;
+	font-size: 1.25rem;
 	font-weight: 100;
 	color: whitesmoke;
 	text-decoration: none;
