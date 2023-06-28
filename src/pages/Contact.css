@@ -11,7 +11,7 @@
 	border-radius: 15px;
 	padding-left: 65px;
 	padding-right: 65px;
-	width: max-content;
+	width: fit-content;
 	max-width: 60vw;
 	margin-left: auto;
 	margin-right: auto;
@@ -28,6 +28,11 @@
 }
 
 @media screen and (max-width: 768px) {
+	.contacts {
+		padding-left: 7.5%;
+		padding-right: 7.5%;
+		min-width: fit-content;
+	}
 	.contacts a {
 		font-size: 1em;
 	}
