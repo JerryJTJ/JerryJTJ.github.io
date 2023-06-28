@@ -22,8 +22,10 @@ import {
 	isMobile,
 } from "react-device-detect";
 import FooterBar from "./components/FooterBar";
+import NotFound from "./pages/NotFound";
 
 function App() {
+	// Scrollbar
 	// Only render scrollbar if not mobile
 	if (!isMobile) {
 		const osInstance = OverlayScrollbars(document.body, {
@@ -51,6 +53,7 @@ function App() {
 		});
 	}
 
+	// Tab Switching
 	const [activeTab, setActiveTab] = useState("home");
 
 	const handleTabClick = (tabName: string) => {
@@ -71,6 +74,10 @@ function App() {
 						<Route path="/projects" element={<Projects />} />
 						<Route path="/contact" element={<Contact />} />
 						<Route path="/experience" element={<Experience />} />
+						<Route
+							path="*"
+							element={<NotFound onTabClick={handleTabClick} />}
+						/>
 					</Routes>
 				</div>
 			</HashRouter>

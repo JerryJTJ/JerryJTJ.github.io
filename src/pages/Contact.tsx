@@ -32,6 +32,15 @@ function Contact() {
 						github.com/JerryJTJ
 					</a>
 				</p>
+				{/* <p>
+					📷&nbsp;
+					<a
+						className="contact-link"
+						href="https://www.instagram.com/jerryjtj/"
+					>
+						instagram.com/JerryJTJ
+					</a>
+				</p> */}
 			</div>
 		</div>
 	);

@@ -9,8 +9,11 @@
 	flex-direction: row;
 	align-items: center;
 	max-width: 1000px;
+	padding: 10%;
 	margin-left: auto;
 	margin-right: auto;
+	margin-top: auto;
+	margin-bottom: auto;
 }
 
 .home-profilePic {
@@ -38,17 +41,17 @@
 .home-greeting {
 	margin-top: 0;
 	color: whitesmoke;
-	font-family: "Roboto", Helvetica, sans-serif;
+	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
 	font-size: 2rem;
-	font-weight: lighter;
+	font-weight: 500;
 }
 
 .home-bioText {
 	font-size: 18px;
 	line-height: 1.5;
 	color: whitesmoke;
-	font-family: "Roboto", Helvetica, sans-serif;
-	font-weight: lighter;
+	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-weight: 400;
 }
 
 @media screen and (max-width: 768px) {

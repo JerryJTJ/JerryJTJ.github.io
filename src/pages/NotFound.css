@@ -1,13 +1,13 @@
-.contact-container {
+.NotFound-container {
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
 }
 
-.contacts {
+.notfound-content {
 	background-color: rgba(25, 25, 25, 0.95);
-	padding: 1.5%;
+	padding: 20px;
 	border-radius: 15px;
 	padding-left: 65px;
 	padding-right: 65px;
@@ -19,16 +19,29 @@
 	margin-bottom: auto;
 }
 
-.contacts a {
-	font-family: "Consolas", "Andale Mono", "Courier New", Monospace;
+.notfound-header {
+	font-family: "Consolas", "Andale Mono", "Roboto", "Helvetica", "Courier New",
+		monospace;
 	font-size: 1.25rem;
 	font-weight: 100;
 	color: whitesmoke;
 	text-decoration: none;
+	text-align: center;
+}
+
+.notfound-returnText {
+	font-family: "Consolas", "Andale Mono", "Roboto", "Helvetica", "Courier New",
+		monospace;
+	font-size: 1.25rem;
+	font-weight: 100;
+	color: whitesmoke;
+	text-decoration: none;
+	text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-	.contacts a {
+	.notfound-header,
+	.notfound-returnText {
 		font-size: 1em;
 	}
 }

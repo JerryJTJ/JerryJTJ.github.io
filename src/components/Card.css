@@ -33,8 +33,8 @@
 	color: whitesmoke;
 	margin-bottom: 0px;
 	justify-content: center;
-	font-family: "Noto Sans", serif;
-	font-weight: lighter;
+	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-weight: normal;
 }
 
 .role {
@@ -43,21 +43,21 @@
 	font-style: italic;
 	margin-top: 0px;
 	justify-content: center;
-	font-family: "Noto Sans", serif;
+	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
 	font-weight: lighter;
 }
 
 .description {
 	font-size: 14px;
 	color: whitesmoke;
-	font-family: "Noto Sans", serif;
+	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
 	font-weight: lighter;
 }
 
 .technologies {
 	font-size: 14px;
 	color: whitesmoke;
-	font-family: "Consolas", serif;
+	font-family: "Consolas", "Andale Mono", "Courier New", monospace;
 	font-weight: lighter;
 }
 
@@ -79,7 +79,7 @@
 	text-align: right;
 	justify-content: center;
 	margin-bottom: 0px;
-	font-family: "Noto Sans", serif;
+	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
 	font-weight: lighter;
 	font-style: italic;
 }
@@ -115,7 +115,7 @@ a.active {
 
 	.technologies {
 		font-size: 0.67rem;
-		font-family: "Consolas", "Andale Mono", "Courier New", Monospace;
+		font-family: "Consolas", "Andale Mono", "Courier New", monospace;
 	}
 
 	.date,
