@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "./static/css/main.f36ff008.css",
+    "main.css": "./static/css/main.a9c54e3e.css",
     "main.js": "./static/js/main.9f8a703f.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
     "static/media/ece493-final.pdf": "./static/media/ece493-final.99137a667f00ef35a49a.pdf",
@@ -11,12 +11,12 @@
     "static/media/borealiswind.jpeg": "./static/media/borealiswind.fe05d771784d01045c20.jpeg",
     "static/media/ualbertaseal.jpg": "./static/media/ualbertaseal.3989c7a103cabd3ca4c2.jpg",
     "index.html": "./index.html",
-    "main.f36ff008.css.map": "./static/css/main.f36ff008.css.map",
+    "main.a9c54e3e.css.map": "./static/css/main.a9c54e3e.css.map",
     "main.9f8a703f.js.map": "./static/js/main.9f8a703f.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f36ff008.css",
+    "static/css/main.a9c54e3e.css",
     "static/js/main.9f8a703f.js"
   ]
 }
