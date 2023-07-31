@@ -41,7 +41,7 @@
 .home-greeting {
 	margin-top: 0;
 	color: whitesmoke;
-	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-family: "Noto Sans", "Helvetica", sans-serif;
 	font-size: 2rem;
 	font-weight: 500;
 }
@@ -50,7 +50,7 @@
 	font-size: 18px;
 	line-height: 1.5;
 	color: whitesmoke;
-	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-family: "Noto Sans", "Helvetica", sans-serif;
 	font-weight: 400;
 }
 

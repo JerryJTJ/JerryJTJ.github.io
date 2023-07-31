@@ -33,7 +33,7 @@
 	color: whitesmoke;
 	margin-bottom: 0px;
 	justify-content: center;
-	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-family: "Noto Sans", "Helvetica", sans-serif;
 	font-weight: normal;
 }
 
@@ -43,21 +43,21 @@
 	font-style: italic;
 	margin-top: 0px;
 	justify-content: center;
-	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-family: "Noto Sans", "Helvetica", sans-serif;
 	font-weight: lighter;
 }
 
 .description {
 	font-size: 14px;
 	color: whitesmoke;
-	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-family: "Noto Sans", "Helvetica", sans-serif;
 	font-weight: lighter;
 }
 
 .technologies {
 	font-size: 14px;
 	color: whitesmoke;
-	font-family: "Consolas", "Andale Mono", "Courier New", monospace;
+	font-family: "Consolas", "Courier New", monospace;
 	font-weight: lighter;
 }
 
@@ -79,7 +79,7 @@
 	text-align: right;
 	justify-content: center;
 	margin-bottom: 0px;
-	font-family: "Noto Sans", "Inter", "Roboto", "Helvetica", sans-serif;
+	font-family: "Noto Sans", "Inter", "Helvetica", sans-serif;
 	font-weight: lighter;
 	font-style: italic;
 }
