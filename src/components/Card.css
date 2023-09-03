@@ -110,11 +110,11 @@ a.active {
 
 	.role,
 	.description {
-		font-size: 0.67rem;
+		font-size: 12px;
 	}
 
 	.technologies {
-		font-size: 0.67rem;
+		font-size: 12px;
 		font-family: "Consolas", "Andale Mono", "Courier New", monospace;
 	}
 
