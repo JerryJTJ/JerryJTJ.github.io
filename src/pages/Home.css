@@ -20,9 +20,10 @@
 	border-radius: 15%;
 	width: 200px;
 	height: 100%;
-	object-fit: cover;
 	margin-right: 60px;
+	background-color: rgba(25, 25, 25, 0.95);
 	border: 25px solid rgba(25, 25, 25, 0.95);
+	border-bottom: 0;
 }
 
 .home-bio {
@@ -32,7 +33,7 @@
 	justify-content: center;
 	padding: 30px;
 	background-color: rgba(25, 25, 25, 0.95);
-	border-radius: 15px;
+	border-radius: 25px;
 	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 	height: 100%;
 	max-width: 70vw;

@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import profilePic from "../media/profilepic.jpg";
+import profilePic from "../media/profilepic.png";
 import "./Home.css";
 
 function Home() {
@@ -13,7 +13,7 @@ function Home() {
 					alt="Profile Picture"
 				/>
 				<div className="home-bio">
-					<h1 className="home-greeting">👋 Hey!</h1>
+					<h1 className="home-greeting">Hey!</h1>
 					<p className="home-bioText">
 						Welcome to my website! I'm a new UWaterloo graduate with
 						a degree in Mechatronics Engineering (w/ Computing
