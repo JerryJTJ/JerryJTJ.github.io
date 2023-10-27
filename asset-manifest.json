@@ -1,22 +1,22 @@
 {
   "files": {
-    "main.css": "./static/css/main.a9c54e3e.css",
-    "main.js": "./static/js/main.9f8a703f.js",
+    "main.css": "./static/css/main.dec98f17.css",
+    "main.js": "./static/js/main.9f85a2e6.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
     "static/media/ece493-final.pdf": "./static/media/ece493-final.99137a667f00ef35a49a.pdf",
     "static/media/historical-investigation.pdf": "./static/media/historical-investigation.6f840aabd9551d916765.pdf",
+    "static/media/profilepic.png": "./static/media/profilepic.7ec705d8ca4ee4f7e9eb.png",
     "static/media/uwaterlooseal.png": "./static/media/uwaterlooseal.126cfbeb971a46c9be23.png",
-    "static/media/profilepic.jpg": "./static/media/profilepic.0bb6a223f1b43ab2b466.jpg",
     "static/media/uhmanoa.jpg": "./static/media/uhmanoa.89e99d331152af2621f3.jpg",
     "static/media/borealiswind.jpeg": "./static/media/borealiswind.fe05d771784d01045c20.jpeg",
     "static/media/ualbertaseal.jpg": "./static/media/ualbertaseal.3989c7a103cabd3ca4c2.jpg",
     "index.html": "./index.html",
-    "main.a9c54e3e.css.map": "./static/css/main.a9c54e3e.css.map",
-    "main.9f8a703f.js.map": "./static/js/main.9f8a703f.js.map",
+    "main.dec98f17.css.map": "./static/css/main.dec98f17.css.map",
+    "main.9f85a2e6.js.map": "./static/js/main.9f85a2e6.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a9c54e3e.css",
-    "static/js/main.9f8a703f.js"
+    "static/css/main.dec98f17.css",
+    "static/js/main.9f85a2e6.js"
   ]
 }
