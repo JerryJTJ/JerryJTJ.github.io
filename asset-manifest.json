@@ -1,23 +1,25 @@
 {
   "files": {
-    "main.css": "./static/css/main.a2a22043.css",
-    "main.js": "./static/js/main.f0a57721.js",
+    "main.css": "./static/css/main.12fbfe5d.css",
+    "main.js": "./static/js/main.48833426.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
     "static/media/ece493-final.pdf": "./static/media/ece493-final.99137a667f00ef35a49a.pdf",
     "static/media/historical-investigation.pdf": "./static/media/historical-investigation.6f840aabd9551d916765.pdf",
     "static/media/Resume_Summer_2023.pdf": "./static/media/Resume_Summer_2023.16e151dd86b9de84555b.pdf",
-    "static/media/profilepic.png": "./static/media/profilepic.7ec705d8ca4ee4f7e9eb.png",
-    "static/media/uwaterlooseal.png": "./static/media/uwaterlooseal.126cfbeb971a46c9be23.png",
-    "static/media/uhmanoa.jpg": "./static/media/uhmanoa.89e99d331152af2621f3.jpg",
-    "static/media/borealiswind.jpeg": "./static/media/borealiswind.fe05d771784d01045c20.jpeg",
-    "static/media/ualbertaseal.jpg": "./static/media/ualbertaseal.3989c7a103cabd3ca4c2.jpg",
+    "static/media/uwaterlooseal.webp": "./static/media/uwaterlooseal.274a1b4589a6c22da3ca.webp",
+    "static/media/profilepic.webp": "./static/media/profilepic.14f0c55a92f44064185b.webp",
+    "static/media/uhmanoa.webp": "./static/media/uhmanoa.41ff2139de1622b1185e.webp",
+    "static/media/borealiswind.webp": "./static/media/borealiswind.4e729b5f35caaf738e8d.webp",
+    "static/media/ualbertaseal.webp": "./static/media/ualbertaseal.b916a5b988b8a17d9395.webp",
+    "static/media/ford.webp": "./static/media/ford.782b1be85eadd7227b7d.webp",
+    "static/media/q4inc.webp": "./static/media/q4inc.ab14a756628034a049f1.webp",
     "index.html": "./index.html",
-    "main.a2a22043.css.map": "./static/css/main.a2a22043.css.map",
-    "main.f0a57721.js.map": "./static/js/main.f0a57721.js.map",
+    "main.12fbfe5d.css.map": "./static/css/main.12fbfe5d.css.map",
+    "main.48833426.js.map": "./static/js/main.48833426.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a2a22043.css",
-    "static/js/main.f0a57721.js"
+    "static/css/main.12fbfe5d.css",
+    "static/js/main.48833426.js"
   ]
 }
