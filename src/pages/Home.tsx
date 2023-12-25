@@ -1,5 +1,5 @@
 /* eslint-disable jsx-a11y/img-redundant-alt */
-import profilePic from "../media/profilepic.png";
+import profilePic from "../media/profilepic.webp";
 import "./Home.css";
 import resume from "../media/documents/Resume_Summer_2023.pdf";
 
