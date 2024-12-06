@@ -25,8 +25,9 @@ function TitleBar({ activeTab, onTabClick }: TitleBarProps) {
 				{navigationList.map((navItem) => (
 					<Link
 						to={`/${navItem}`}
-						className={`navLinks ${activeTab === navItem ? "active" : ""
-							}`}
+						className={`navLinks ${
+							activeTab === navItem && "active"
+						}`}
 						onClick={() => onTabClick(navItem)}
 					>
 						<text className="navLinkText">

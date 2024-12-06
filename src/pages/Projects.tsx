@@ -10,34 +10,36 @@ function Projects() {
 			<p className="grouping">💻 SOFTWARE </p>
 
 			<div className="cards">
-				{listOfProjects.map((project) =>
-					project.type === ProjectType.SOFTWARE ? (
-						<Card
-							type={CardType.PROJECT}
-							title={project.name}
-							role={project.role}
-							description={project.description}
-							technologies={project.technologies}
-							link={project.link}
-						/>
-					) : null
+				{listOfProjects.map(
+					(project) =>
+						project.type === ProjectType.SOFTWARE && (
+							<Card
+								type={CardType.PROJECT}
+								title={project.name}
+								role={project.role}
+								description={project.description}
+								technologies={project.technologies}
+								link={project.link}
+							/>
+						)
 				)}
 			</div>
 
 			<p className="grouping">📝 WRITING</p>
 
 			<div className="cards">
-				{listOfProjects.map((project) =>
-					project.type === ProjectType.WRITING ? (
-						<Card
-							type={CardType.PROJECT}
-							title={project.name}
-							role={project.role}
-							description={project.description}
-							technologies={project.technologies}
-							link={project.link}
-						/>
-					) : null
+				{listOfProjects.map(
+					(project) =>
+						project.type === ProjectType.WRITING && (
+							<Card
+								type={CardType.PROJECT}
+								title={project.name}
+								role={project.role}
+								description={project.description}
+								technologies={project.technologies}
+								link={project.link}
+							/>
+						)
 				)}
 			</div>
 		</div>

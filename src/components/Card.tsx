@@ -31,29 +31,27 @@ const Card = (props: cardProps) => {
 					</div>
 				) : null}
 				<div className={"cardContent"}>
-					{props.title ? (
-						<p className="title">{props.title}</p>
-					) : null}
-					{props.role ? <p className="role">{props.role}</p> : null}
-					{props.description ? (
+					{props.title && <p className="title">{props.title}</p>}
+					{props.role && <p className="role">{props.role}</p>}
+					{props.description && (
 						<p className="description">{props.description}</p>
-					) : null}
-					{props.technologies ? (
+					)}
+					{props.technologies && (
 						<p className="technologies">
 							Tech Stack: {props.technologies}
 						</p>
-					) : null}
+					)}
 				</div>
 				<div className={"sideContainer"}>
-					{props.link ? (
+					{props.link && (
 						<p className="link">
 							<a href={props.link}>🔗</a>
 						</p>
-					) : null}
-					{props.date ? <p className={"date"}>{props.date}</p> : null}
-					{props.location ? (
+					)}
+					{props.date && <p className={"date"}>{props.date}</p>}
+					{props.location && (
 						<p className={"location"}>{props.location}</p>
-					) : null}
+					)}
 				</div>
 			</div>
 		</div>
