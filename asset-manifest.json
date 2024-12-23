@@ -1,11 +1,11 @@
 {
   "files": {
-    "main.css": "./static/css/main.12fbfe5d.css",
-    "main.js": "./static/js/main.48833426.js",
+    "main.css": "./static/css/main.42c7f9b0.css",
+    "main.js": "./static/js/main.d6518066.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
     "static/media/ece493-final.pdf": "./static/media/ece493-final.99137a667f00ef35a49a.pdf",
     "static/media/historical-investigation.pdf": "./static/media/historical-investigation.6f840aabd9551d916765.pdf",
-    "static/media/Resume_Summer_2023.pdf": "./static/media/Resume_Summer_2023.16e151dd86b9de84555b.pdf",
+    "static/media/resume.pdf": "./static/media/resume.0628c8480c5351c210d3.pdf",
     "static/media/uwaterlooseal.webp": "./static/media/uwaterlooseal.274a1b4589a6c22da3ca.webp",
     "static/media/profilepic.webp": "./static/media/profilepic.14f0c55a92f44064185b.webp",
     "static/media/uhmanoa.webp": "./static/media/uhmanoa.41ff2139de1622b1185e.webp",
@@ -14,12 +14,12 @@
     "static/media/ford.webp": "./static/media/ford.782b1be85eadd7227b7d.webp",
     "static/media/q4inc.webp": "./static/media/q4inc.ab14a756628034a049f1.webp",
     "index.html": "./index.html",
-    "main.12fbfe5d.css.map": "./static/css/main.12fbfe5d.css.map",
-    "main.48833426.js.map": "./static/js/main.48833426.js.map",
+    "main.42c7f9b0.css.map": "./static/css/main.42c7f9b0.css.map",
+    "main.d6518066.js.map": "./static/js/main.d6518066.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.12fbfe5d.css",
-    "static/js/main.48833426.js"
+    "static/css/main.42c7f9b0.css",
+    "static/js/main.d6518066.js"
   ]
 }
