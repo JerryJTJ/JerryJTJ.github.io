@@ -17,7 +17,7 @@ interface cardProps {
 	technologies?: string;
 }
 
-const Card = (props: cardProps) => {
+function Card(props: cardProps) {
 	return (
 		<div className={"card"}>
 			<div className={"cardRow"}>
@@ -56,6 +56,6 @@ const Card = (props: cardProps) => {
 			</div>
 		</div>
 	);
-};
+}
 
 export default Card;
