@@ -25,7 +25,7 @@ let listOfProjects: projectDetails[] = [
 		description: `Gymstagram is a social media app designed for fitness enthusiasts.
         The app allows users to create accounts, post pictures and videos, follow other users, and view a feed of posts from people they follow.`,
 		technologies: "Java, Android Studio, MongoDB",
-		link: "https://github.com/mhyeun/gymstagram",
+		link: "https://github.com/JerryJTJ/gymstagram",
 		type: ProjectType.SOFTWARE,
 	},
 	{
