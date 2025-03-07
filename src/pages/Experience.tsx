@@ -1,15 +1,13 @@
-import React from "react";
-import { View } from "react-native";
+import "./Experience.css";
 import Card, { CardType } from "../components/Card";
 import listOfJobs from "./Experience.list";
 
 function Experience() {
 	return (
-		<View
-			style={{ flex: 1, alignItems: "center", justifyContent: "center" }}
-		>
+		<div className="card-list">
 			{listOfJobs.map((job) => (
 				<Card
+					key={`job-${job.company}-${job.date}`}
 					type={CardType.JOB}
 					title={job.company}
 					date={job.date}
@@ -21,7 +19,7 @@ function Experience() {
 					link={job.link}
 				/>
 			))}
-		</View>
+		</div>
 	);
 }
 

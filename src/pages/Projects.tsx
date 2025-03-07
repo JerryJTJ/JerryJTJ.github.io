@@ -1,5 +1,3 @@
-import React from "react";
-import { View } from "react-native";
 import Card, { CardType } from "../components/Card";
 import listOfProjects, { ProjectType } from "./Projects.list";
 import "./Projects.css";
@@ -14,6 +12,7 @@ function Projects() {
 					(project) =>
 						project.type === ProjectType.SOFTWARE && (
 							<Card
+								key={`${project.name}`}
 								type={CardType.PROJECT}
 								title={project.name}
 								role={project.role}
