@@ -18,7 +18,7 @@ nav a {
 	padding: 0;
 }
 
-.titleName {
+.title-link {
 	display: flex;
 	justify-content: center;
 	margin: auto;
@@ -50,8 +50,9 @@ nav a {
 	}
 }
 
-.titleNameText:hover,
-a:hover {
+.title-link:hover,
+.nav-link:hover,
+a:active {
 	background: linear-gradient(
 		to right,
 		rgb(140, 175, 233),
@@ -73,7 +74,7 @@ a:hover {
 
 /* Media */
 @media screen and (max-width: 768px) {
-	.titleNameText {
+	.title-link {
 		font-size: 1.75rem;
 	}
 
