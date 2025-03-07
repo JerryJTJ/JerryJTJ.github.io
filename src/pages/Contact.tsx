@@ -4,43 +4,23 @@ function Contact() {
 	return (
 		<div className="contact-container">
 			<div className="contacts">
-				<p>
-					📧&nbsp;
-					<a
-						className="contact-link"
-						href="mailto:jerryjtj@gmail.com"
-					>
-						JerryJTJ@gmail.com
-					</a>
-					<br></br>
-				</p>
-				<p>
-					💼&nbsp;
-					<a
-						className="contact-link"
-						href="https://ca.linkedin.com/in/jujerry"
-					>
-						linkedin.com/in/jujerry
-					</a>
-				</p>
-				<p>
-					💻&nbsp;
-					<a
-						className="contact-link"
-						href="https://github.com/JerryJTJ"
-					>
-						github.com/JerryJTJ
-					</a>
-				</p>
-				{/* <p>
-					📷&nbsp;
-					<a
-						className="contact-link"
-						href="https://www.instagram.com/jerryjtj/"
-					>
-						instagram.com/JerryJTJ
-					</a>
-				</p> */}
+				<ul>
+					<li>
+						<a href="mailto:jerryjtj@gmail.com">
+							📧&nbsp;JerryJTJ@gmail.com
+						</a>
+					</li>
+					<li>
+						<a href="https://ca.linkedin.com/in/jujerry">
+							💼&nbsp;linkedin.com/in/jujerry
+						</a>
+					</li>
+					<li>
+						<a href="https://github.com/JerryJTJ">
+							💻&nbsp;github.com/JerryJTJ
+						</a>
+					</li>
+				</ul>
 			</div>
 		</div>
 	);

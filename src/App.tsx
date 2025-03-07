@@ -1,34 +1,20 @@
-import React, { useEffect, useState } from "react";
-import { BrowserRouter, HashRouter, Route, Routes } from "react-router-dom";
+import { HashRouter, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home";
-import About from "./pages/About";
 import Projects from "./pages/Projects";
 import Contact from "./pages/Contact";
 import TitleBar from "./components/TitleBar";
 import Experience from "./pages/Experience";
 import "./App.sass";
 import "overlayscrollbars/overlayscrollbars.css";
-import {
-	OverlayScrollbars,
-	ScrollbarsAutoHideBehavior,
-	ScrollbarsHidingPlugin,
-	SizeObserverPlugin,
-	ClickScrollPlugin,
-} from "overlayscrollbars";
-import {
-	BrowserView,
-	MobileView,
-	isBrowser,
-	isMobile,
-} from "react-device-detect";
+import { OverlayScrollbars } from "overlayscrollbars";
+import { isMobile } from "react-device-detect";
 import FooterBar from "./components/FooterBar";
 import NotFound from "./pages/NotFound";
 
 function App() {
-	// Scrollbar
-	// Only render scrollbar if not mobile
+	// Scrollbar, only render scrollbar if not mobile
 	if (!isMobile) {
-		const osInstance = OverlayScrollbars(document.body, {
+		OverlayScrollbars(document.body, {
 			paddingAbsolute: false,
 			showNativeOverlaidScrollbars: false,
 			update: {
@@ -53,34 +39,25 @@ function App() {
 		});
 	}
 
-	// Tab Switching
-	const [activeTab, setActiveTab] = useState("home");
-
-	const handleTabClick = (tabName: string) => {
-		setActiveTab(tabName);
-	};
-
 	return (
 		<div className="App">
+			<div id="stars"></div>
+			<div id="stars2"></div>
+			<div id="stars3"></div>
+
+			{/* Routing */}
 			<HashRouter>
-				<TitleBar activeTab={activeTab} onTabClick={handleTabClick} />
-				<div id="stars"></div>
-				<div id="stars2"></div>
-				<div id="stars3"></div>
-				<div className="app-pages">
-					<Routes>
-						<Route path="/" element={<Home />} />
-						<Route path="/about" element={<About />} />
-						<Route path="/projects" element={<Projects />} />
-						<Route path="/contact" element={<Contact />} />
-						<Route path="/experience" element={<Experience />} />
-						<Route
-							path="*"
-							element={<NotFound onTabClick={handleTabClick} />}
-						/>
-					</Routes>
-				</div>
+				<TitleBar />
+
+				<Routes>
+					<Route index element={<Home />} />
+					<Route path="projects" element={<Projects />} />
+					<Route path="contact" element={<Contact />} />
+					<Route path="experience" element={<Experience />} />
+					<Route path="*" element={<NotFound />} />
+				</Routes>
 			</HashRouter>
+
 			<FooterBar />
 		</div>
 	);

@@ -1,16 +1,12 @@
 .contact-container {
 	display: flex;
 	flex-direction: column;
-	justify-content: center;
 	align-items: center;
-}
-
-.contacts {
 	background-color: rgba(25, 25, 25, 0.95);
 	padding: 1.5%;
 	border-radius: 15px;
-	padding-left: 65px;
-	padding-right: 65px;
+	padding-left: 35px;
+	padding-right: 35px;
 	width: fit-content;
 	max-width: 60vw;
 	margin-left: auto;
@@ -19,14 +15,20 @@
 	margin-bottom: auto;
 }
 
-.contacts a {
+ul {
+	list-style-type: none;
 	font-family: "Consolas", "Andale Mono", "Courier New", Monospace;
 	font-size: 1.25rem;
 	font-weight: 100;
 	color: whitesmoke;
-	text-decoration: none;
+	margin: auto;
+	justify-items: left;
 }
 
+li {
+	padding-top: 10px;
+	padding-bottom: 10px;
+}
 @media screen and (max-width: 768px) {
 	.contacts {
 		padding-left: 7.5%;

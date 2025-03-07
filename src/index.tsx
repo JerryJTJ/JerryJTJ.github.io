@@ -2,7 +2,7 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import "./index.css";
 import App from "./App";
-import { Helmet } from "react-helmet";
+import { Helmet, HelmetProvider } from "react-helmet-async";
 import reportWebVitals from "./reportWebVitals";
 
 const root = ReactDOM.createRoot(
@@ -10,12 +10,14 @@ const root = ReactDOM.createRoot(
 );
 root.render(
 	<React.StrictMode>
-		<Helmet>
-			<meta
-				name="viewport"
-				content="width=device-width, initial-scale=1.0, width: fit-content;"
-			/>
-		</Helmet>
+		<HelmetProvider>
+			<Helmet>
+				<meta
+					name="viewport"
+					content="width=device-width, initial-scale=1.0, width: fit-content;"
+				/>
+			</Helmet>
+		</HelmetProvider>
 		<App />
 	</React.StrictMode>
 );

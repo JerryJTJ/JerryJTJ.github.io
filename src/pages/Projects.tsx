@@ -12,7 +12,7 @@ function Projects() {
 					(project) =>
 						project.type === ProjectType.SOFTWARE && (
 							<Card
-								key={`${project.name}`}
+								key={`project-${project.name}`}
 								type={CardType.PROJECT}
 								title={project.name}
 								role={project.role}
@@ -31,6 +31,7 @@ function Projects() {
 					(project) =>
 						project.type === ProjectType.WRITING && (
 							<Card
+								key={`project-${project.name}`}
 								type={CardType.PROJECT}
 								title={project.name}
 								role={project.role}

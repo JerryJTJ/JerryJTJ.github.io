@@ -1,11 +1,5 @@
-.NotFound-container {
+.notfound-container {
 	display: flex;
-	flex-direction: column;
-	justify-content: center;
-	align-items: center;
-}
-
-.notfound-content {
 	background-color: rgba(25, 25, 25, 0.95);
 	padding: 20px;
 	border-radius: 15px;
@@ -19,27 +13,15 @@
 	margin-bottom: auto;
 }
 
-.notfound-header {
-	font-family: "Consolas", "Courier New", monospace;
+.notfound-content {
+	font-family: "Consolas", "Andale Mono", "Courier New", Monospace;
 	font-size: 1.25rem;
-	font-weight: 100;
 	color: whitesmoke;
-	text-decoration: none;
-	text-align: center;
-}
-
-.notfound-returnText {
-	font-family: "Consolas", "Courier New", monospace;
-	font-size: 1.25rem;
-	font-weight: 100;
-	color: whitesmoke;
-	text-decoration: none;
 	text-align: center;
 }
 
 @media screen and (max-width: 768px) {
-	.notfound-header,
-	.notfound-returnText {
+	.notfound-content {
 		font-size: 1em;
 	}
 }

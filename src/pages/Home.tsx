@@ -16,8 +16,8 @@ function Home() {
 				<div className="home-bio">
 					<h1 className="home-greeting">Hey!</h1>
 					<p className="home-bioText">
-						Welcome to my website! I'm a new UWaterloo graduate with
-						a degree in Mechatronics Engineering (w/ Computing
+						Welcome to my website! I'm a UWaterloo graduate with a
+						degree in Mechatronics Engineering (w/ Computing
 						Option).
 						<br></br>
 						<br></br>

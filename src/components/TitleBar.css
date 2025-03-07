@@ -1,44 +1,37 @@
 .titlebar {
-	justify-content: center;
+	margin: auto;
 	display: block;
-	background-position: 48% 48%;
-	background-repeat: no-repeat;
-	background-size: cover;
 	margin-bottom: 1.5rem;
 	margin-top: 1.5em;
-}
-
-nav {
-	display: flex;
-	justify-content: space-between;
-	align-items: center;
-	padding: 10px;
+	text-align: center;
 }
 
 nav a {
 	color: whitesmoke;
-	text-decoration: none;
 	margin: 0 10px;
 	font-size: 1.25em;
 }
 
-.navList {
-	justify-content: center;
-	text-align: center;
-}
-
 .titlebar ul {
-	margin: 0; /* To remove default bottom margin */
-	padding: 0; /* To remove default left padding */
+	/* Remove default margins & padding */
+	margin: 0;
+	padding: 0;
 }
 
 .titleName {
 	display: flex;
 	justify-content: center;
-	align-items: center;
-	width: max-content;
-	margin-left: auto;
-	margin-right: auto;
+	margin: auto;
+	font-family: "Inter", "Helvetica", sans-serif;
+	font-weight: 600;
+	font-size: 3em;
+}
+
+/* Navigation Links */
+.navList {
+	font-family: "Inter", "Helvetica", sans-serif;
+	font-weight: 500;
+	font-size: 1.5em;
 }
 
 /* Animations start here */
@@ -57,36 +50,8 @@ nav a {
 	}
 }
 
-/* Name Bar */
-.titleNameText {
-	font-family: "Inter", "Helvetica", sans-serif;
-	font-weight: 600;
-	font-size: 3em;
-}
-
-.titleNameText:hover {
-	background: linear-gradient(
-		to right,
-		rgb(140, 175, 233),
-		rgb(169, 157, 193),
-		rgb(255, 197, 161),
-		rgb(241, 151, 143)
-	);
-	background-size: 200% 200%;
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-	animation: rainbow 3s ease-in-out infinite;
-	transition: background-position 0.2s ease-in-out;
-}
-
-/* Navigation Links */
-.navLinks {
-	font-family: "Inter", "Helvetica", sans-serif;
-	font-weight: 500;
-	font-size: 1.5em;
-}
-
-.navLinks:hover {
+.titleNameText:hover,
+a:hover {
 	background: linear-gradient(
 		to right,
 		rgb(140, 175, 233),
