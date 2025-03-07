@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "./static/css/main.a56b50dd.css",
-    "main.js": "./static/js/main.6b6e5444.js",
+    "main.css": "./static/css/main.c279ad34.css",
+    "main.js": "./static/js/main.30dac19a.js",
     "static/js/787.71e672d5.chunk.js": "./static/js/787.71e672d5.chunk.js",
     "static/media/ece493-final.pdf": "./static/media/ece493-final.99137a667f00ef35a49a.pdf",
     "static/media/historical-investigation.pdf": "./static/media/historical-investigation.6f840aabd9551d916765.pdf",
@@ -14,12 +14,12 @@
     "static/media/ford.webp": "./static/media/ford.782b1be85eadd7227b7d.webp",
     "static/media/q4inc.webp": "./static/media/q4inc.ab14a756628034a049f1.webp",
     "index.html": "./index.html",
-    "main.a56b50dd.css.map": "./static/css/main.a56b50dd.css.map",
-    "main.6b6e5444.js.map": "./static/js/main.6b6e5444.js.map",
+    "main.c279ad34.css.map": "./static/css/main.c279ad34.css.map",
+    "main.30dac19a.js.map": "./static/js/main.30dac19a.js.map",
     "787.71e672d5.chunk.js.map": "./static/js/787.71e672d5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a56b50dd.css",
-    "static/js/main.6b6e5444.js"
+    "static/css/main.c279ad34.css",
+    "static/js/main.30dac19a.js"
   ]
 }
