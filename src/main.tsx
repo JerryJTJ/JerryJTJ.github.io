@@ -39,9 +39,9 @@ if (rootElement && !rootElement.innerHTML) {
   const root = ReactDOM.createRoot(rootElement);
   root.render(
     <StrictMode>
-      <div id="stars"></div>
-      <div id="stars2"></div>
-      <div id="stars3"></div>
+      <div className="3xl:scale-150 4xl:scale-250" id="stars"></div>
+      <div className="3xl:scale-150 4xl:scale-250" id="stars2"></div>
+      <div className="3xl:scale-150 4xl:scale-250" id="stars3"></div>
       <RouterProvider router={router} />
     </StrictMode>,
   );
