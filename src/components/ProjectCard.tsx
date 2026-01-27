@@ -1,5 +1,5 @@
 import { Card, Link } from "@heroui/react";
-import type { Project } from "@/data/data.types";
+import type { Project } from "@/data/data.interface";
 
 interface ProjectCardProps {
   project: Project;

@@ -1,0 +1,172 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`About Card > renders properly 1`] = `
+{
+  "asFragment": [Function],
+  "baseElement": <body>
+    <div>
+      <div
+        class="card card--quaternary w-full flex md:flex-row border-fg bg-surface-quaternary/30 backdrop-blur-sm pb-0 items-center"
+        data-slot="card"
+      >
+        <div
+          class="relative w-35 h-35 shrink-0 overflow-hidden rounded-2xl md:h-50 md:w-50 md:self-end self-center"
+        >
+          <img
+            alt="Self image"
+            class="pointer-events-none absolute inset-0 h-full w-full object-contain select-none object-center"
+            loading="lazy"
+            src="/src/media/pictures/profilepic.webp"
+          />
+        </div>
+        <div
+          class="flex flex-1 flex-col gap-3"
+        >
+          <div
+            class="card__header gap-1"
+            data-slot="card-header"
+          >
+            <h3
+              class="card__title text-lg"
+              data-slot="card-title"
+            >
+              Hey!
+            </h3>
+          </div>
+          <div
+            class="card__content flex flex-col mb-3"
+            data-slot="card-content"
+          >
+            <span
+              class="text-sm sm:text-base"
+            >
+              Welcome to my website! I'm a UWaterloo graduate with a degree in Mechatronics Engineering (w/ Computing Option).
+            </span>
+            <span
+              class="text-sm sm:text-base"
+            >
+              I'll post my projects, experiences, and other random stuff here so keep an eye out and thanks for visiting!
+            </span>
+            <a
+              class="link link--underline-none link--offset-1 transition-[text-shadow] duration-300 hover:[text-shadow:0_0_10px_whitesmoke] text-sm sm:text-base"
+              data-rac=""
+              data-react-aria-pressable="true"
+              href="/src/media/documents/resume.pdf"
+              tabindex="0"
+            >
+              For my resume, click here!
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>,
+  "container": <div>
+    <div
+      class="card card--quaternary w-full flex md:flex-row border-fg bg-surface-quaternary/30 backdrop-blur-sm pb-0 items-center"
+      data-slot="card"
+    >
+      <div
+        class="relative w-35 h-35 shrink-0 overflow-hidden rounded-2xl md:h-50 md:w-50 md:self-end self-center"
+      >
+        <img
+          alt="Self image"
+          class="pointer-events-none absolute inset-0 h-full w-full object-contain select-none object-center"
+          loading="lazy"
+          src="/src/media/pictures/profilepic.webp"
+        />
+      </div>
+      <div
+        class="flex flex-1 flex-col gap-3"
+      >
+        <div
+          class="card__header gap-1"
+          data-slot="card-header"
+        >
+          <h3
+            class="card__title text-lg"
+            data-slot="card-title"
+          >
+            Hey!
+          </h3>
+        </div>
+        <div
+          class="card__content flex flex-col mb-3"
+          data-slot="card-content"
+        >
+          <span
+            class="text-sm sm:text-base"
+          >
+            Welcome to my website! I'm a UWaterloo graduate with a degree in Mechatronics Engineering (w/ Computing Option).
+          </span>
+          <span
+            class="text-sm sm:text-base"
+          >
+            I'll post my projects, experiences, and other random stuff here so keep an eye out and thanks for visiting!
+          </span>
+          <a
+            class="link link--underline-none link--offset-1 transition-[text-shadow] duration-300 hover:[text-shadow:0_0_10px_whitesmoke] text-sm sm:text-base"
+            data-rac=""
+            data-react-aria-pressable="true"
+            href="/src/media/documents/resume.pdf"
+            tabindex="0"
+          >
+            For my resume, click here!
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>,
+  "debug": [Function],
+  "findAllByAltText": [Function],
+  "findAllByDisplayValue": [Function],
+  "findAllByLabelText": [Function],
+  "findAllByPlaceholderText": [Function],
+  "findAllByRole": [Function],
+  "findAllByTestId": [Function],
+  "findAllByText": [Function],
+  "findAllByTitle": [Function],
+  "findByAltText": [Function],
+  "findByDisplayValue": [Function],
+  "findByLabelText": [Function],
+  "findByPlaceholderText": [Function],
+  "findByRole": [Function],
+  "findByTestId": [Function],
+  "findByText": [Function],
+  "findByTitle": [Function],
+  "getAllByAltText": [Function],
+  "getAllByDisplayValue": [Function],
+  "getAllByLabelText": [Function],
+  "getAllByPlaceholderText": [Function],
+  "getAllByRole": [Function],
+  "getAllByTestId": [Function],
+  "getAllByText": [Function],
+  "getAllByTitle": [Function],
+  "getByAltText": [Function],
+  "getByDisplayValue": [Function],
+  "getByLabelText": [Function],
+  "getByPlaceholderText": [Function],
+  "getByRole": [Function],
+  "getByTestId": [Function],
+  "getByText": [Function],
+  "getByTitle": [Function],
+  "queryAllByAltText": [Function],
+  "queryAllByDisplayValue": [Function],
+  "queryAllByLabelText": [Function],
+  "queryAllByPlaceholderText": [Function],
+  "queryAllByRole": [Function],
+  "queryAllByTestId": [Function],
+  "queryAllByText": [Function],
+  "queryAllByTitle": [Function],
+  "queryByAltText": [Function],
+  "queryByDisplayValue": [Function],
+  "queryByLabelText": [Function],
+  "queryByPlaceholderText": [Function],
+  "queryByRole": [Function],
+  "queryByTestId": [Function],
+  "queryByText": [Function],
+  "queryByTitle": [Function],
+  "rerender": [Function],
+  "unmount": [Function],
+}
+`;

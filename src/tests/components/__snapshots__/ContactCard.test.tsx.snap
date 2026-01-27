@@ -1,0 +1,118 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Contact Card > renders properly 1`] = `
+<div>
+  <div
+    class="card card--quaternary w-100 border-fg bg-surface-quaternary/30 backdrop-blur-xs"
+    data-slot="card"
+  >
+    <div
+      class="card__header"
+      data-slot="card-header"
+    />
+    <div
+      class="card__content"
+      data-slot="card-content"
+    >
+      <div
+        class="max-w-md flex flex-col items-center my-2"
+      >
+        <div>
+          <div
+            class="flex flex-row gap-3"
+          >
+            <p
+              class="text-lg text-foreground"
+            >
+              📧
+            </p>
+            <a
+              class="link link--underline-none link--offset-1"
+              data-rac=""
+              data-react-aria-pressable="true"
+              href="mailto:jerry.ju@uwaterloo.ca"
+              rel="noopener noreferrer"
+              tabindex="0"
+              target="_blank"
+            >
+              <p
+                class="text-lg text-foreground"
+              >
+                jerry.ju@uwaterloo.ca
+              </p>
+            </a>
+          </div>
+          <hr
+            class="separator separator--horizontal separator--on-surface my-4 bg-foreground/50"
+            data-orientation="horizontal"
+            data-slot="separator"
+            role="separator"
+          />
+        </div>
+        <div>
+          <div
+            class="flex flex-row gap-3"
+          >
+            <p
+              class="text-lg text-foreground"
+            >
+              💼
+            </p>
+            <a
+              class="link link--underline-none link--offset-1"
+              data-rac=""
+              data-react-aria-pressable="true"
+              href="https://ca.linkedin.com/in/jujerry"
+              rel="noopener noreferrer"
+              tabindex="0"
+              target="_blank"
+            >
+              <p
+                class="text-lg text-foreground"
+              >
+                linkedin.com/in/jujerry
+              </p>
+            </a>
+          </div>
+          <hr
+            class="separator separator--horizontal separator--on-surface my-4 bg-foreground/50"
+            data-orientation="horizontal"
+            data-slot="separator"
+            role="separator"
+          />
+        </div>
+        <div>
+          <div
+            class="flex flex-row gap-3"
+          >
+            <p
+              class="text-lg text-foreground"
+            >
+              💻
+            </p>
+            <a
+              class="link link--underline-none link--offset-1"
+              data-rac=""
+              data-react-aria-pressable="true"
+              href="https://github.com/JerryJTJ"
+              rel="noopener noreferrer"
+              tabindex="0"
+              target="_blank"
+            >
+              <p
+                class="text-lg text-foreground"
+              >
+                github.com/JerryJTJ
+              </p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="card__footer"
+      data-slot="card-footer"
+    />
+  </div>
+</div>
+`;

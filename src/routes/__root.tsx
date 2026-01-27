@@ -4,22 +4,26 @@ import { TanStackDevtools } from "@tanstack/react-devtools";
 
 import Navbar from "../components/Navbar";
 
+const isTest = import.meta.env.VITE_TEST_FLAG === "1";
+
 export const Route = createRootRoute({
   component: () => (
     <div className="overscroll-none">
       <Navbar />
       <Outlet />
-      <TanStackDevtools
-        config={{
-          position: "bottom-right",
-        }}
-        plugins={[
-          {
-            name: "Tanstack Router",
-            render: <TanStackRouterDevtoolsPanel />,
-          },
-        ]}
-      />
+      {!isTest && (
+        <TanStackDevtools
+          config={{
+            position: "bottom-right",
+          }}
+          plugins={[
+            {
+              name: "Tanstack Router",
+              render: <TanStackRouterDevtoolsPanel />,
+            },
+          ]}
+        />
+      )}
     </div>
   ),
 });

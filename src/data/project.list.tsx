@@ -1,6 +1,6 @@
 import ece493final from "../media/documents/ece493-final.pdf";
 import historicalInvestigation from "../media/documents/historical-investigation.pdf";
-import type { Project } from "./data.types";
+import type { Project } from "./data.interface.ts";
 
 const projects: Array<Project> = [
   {

@@ -1,5 +1,5 @@
 import { Card } from "@heroui/react";
-import type { Experience } from "@/data/data.types";
+import type { Experience } from "@/data/data.interface";
 
 interface ExperienceCardProps {
   experience: Experience;
@@ -18,10 +18,7 @@ export default function ExperienceCard(props: ExperienceCardProps) {
           alt={`${experience.company} logo`}
           className="pointer-events-none absolute inset-0 h-full w-full object-cover select-none"
           loading="lazy"
-          src={
-            experience.image ??
-            "https://heroui-assets.nyc3.cdn.digitaloceanspaces.com/docs/cherries.jpeg"
-          }
+          src={experience.image}
         />
       </div>
       <div className="flex flex-1 flex-col gap-3">
@@ -31,7 +28,8 @@ export default function ExperienceCard(props: ExperienceCardProps) {
         </Card.Header>
         <Card.Description className="flex flex-col">
           {experience.description}
-
+        </Card.Description>
+        <Card.Description>
           {experience.technologies &&
             `Technologies Used: ${experience.technologies}`}
         </Card.Description>

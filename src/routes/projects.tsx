@@ -1,5 +1,5 @@
 import { createFileRoute } from "@tanstack/react-router";
-import type { Project } from "@/data/data.types";
+import type { Project } from "@/data/data.interface";
 import ProjectCard from "@/components/ProjectCard";
 import projects from "@/data/project.list";
 

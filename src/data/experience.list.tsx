@@ -4,7 +4,7 @@ import uhawaii from "../media/logos/uhmanoa.webp";
 import ford from "../media/logos/ford.webp";
 import borealiswind from "../media/logos/borealiswind.webp";
 import ualberta from "../media/logos/ualbertaseal.webp";
-import type { Experience } from "./data.types";
+import type { Experience } from "./data.interface.ts";
 
 const experiences: Array<Experience> = [
   {

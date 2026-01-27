@@ -1,4 +1,4 @@
-export type Experience = {
+export interface Experience {
   company: string;
   date: string;
   location: string;
@@ -6,16 +6,14 @@ export type Experience = {
   image?: string;
   description: string;
   technologies?: string;
-  link?: string;
-};
+}
 
-export type Project = {
+export interface Project {
   name: string;
-  date?: string;
   location?: string;
   role?: string;
   description?: string;
   technologies?: string;
   link?: string;
   type: "SOFTWARE" | "WRITING";
-};
+}
