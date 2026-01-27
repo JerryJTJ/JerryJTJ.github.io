@@ -11,6 +11,7 @@ import NotFoundCard from "./components/NotFoundCard.tsx";
 
 // Create a new router instance
 const router = createRouter({
+  basepath: "/JerryJTJ.github.io",
   routeTree,
   context: {},
   defaultPreload: "intent",
