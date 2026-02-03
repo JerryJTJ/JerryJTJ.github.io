@@ -21,6 +21,7 @@ export default defineConfig({
   test: {
     // Ensure route tree is generated before tests
     globals: true,
+    reporters: process.env.GITHUB_ACTIONS ? ["dot", "github-actions"] : ["dot"],
     projects: [
       {
         extends: true,

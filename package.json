@@ -8,6 +8,7 @@
     "preview": "vite preview",
     "test": "pnpm run test:unit && pnpm run test:e2e",
     "test:unit": "VITE_TEST_FLAG=1 vitest run --project unit",
+    "test:unit:coverage": "VITE_TEST_FLAG=1 vitest run --project unit --coverage",
     "test:e2e": "npx playwright test",
     "lint": "eslint",
     "format": "prettier",
