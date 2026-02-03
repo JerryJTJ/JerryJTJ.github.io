@@ -5,6 +5,9 @@ import { tanstackRouter } from "@tanstack/router-plugin/vite";
 import tsconfigPaths from "vite-tsconfig-paths";
 
 export default defineConfig({
+  optimizeDeps: {
+    exclude: ["chromium-bidi", "fsevents", "lightningcss"],
+  },
   plugins: [
     tanstackRouter({
       // Configure for test environment
@@ -16,11 +19,20 @@ export default defineConfig({
     react(),
   ],
   test: {
-    environment: "jsdom",
-    setupFiles: ["src/tests/vitest-setup.ts"],
-    typecheck: { enabled: true },
-    watch: false,
     // Ensure route tree is generated before tests
     globals: true,
+    reporters: process.env.GITHUB_ACTIONS ? ["dot", "github-actions"] : ["dot"],
+    projects: [
+      {
+        extends: true,
+        test: {
+          setupFiles: ["src/tests/vitest-setup.ts"],
+          typecheck: { enabled: true },
+          include: ["src/tests/unit/**/*.{test,spec}.{ts,tsx}"],
+          name: "unit",
+          environment: "jsdom",
+        },
+      },
+    ],
   },
 });

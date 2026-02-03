@@ -1,6 +1,6 @@
 import { describe, expect, it } from "vitest";
 import { screen } from "@testing-library/react";
-import { routeTree } from "../../routeTree.gen";
+import { routeTree } from "../../../routeTree.gen";
 import { renderWithFileRoutes } from "./file-route-utils";
 
 describe("Generated Route Tree", () => {

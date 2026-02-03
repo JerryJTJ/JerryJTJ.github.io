@@ -4,7 +4,7 @@ import { TanStackDevtools } from "@tanstack/react-devtools";
 
 import Navbar from "../components/Navbar";
 
-const isTest = import.meta.env.VITE_TEST_FLAG === "1";
+const isTest = import.meta.env.VITE_TEST_FLAG;
 
 export const Route = createRootRoute({
   component: () => (
